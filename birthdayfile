@@ -1,0 +1,16 @@
+import time
+
+def birthday_wish(name):
+    wishes = [
+        f"🎉 Happy Birthday, {name}! 🎂",
+        "Wishing you a fantastic year ahead! 🎁",
+        "May all your dreams come true! ✨",
+        "Have a joyful and wonderful birthday! 🎈"
+    ]
+    
+    for wish in wishes:
+        print(wish)
+        time.sleep(1)  # Pause for effect
+
+# Replace 'Nikitha' with the actual name
+birthday_wish("Nikitha")
